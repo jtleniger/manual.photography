@@ -45,7 +45,7 @@
         <div class="tile is-ancestor">
           <div class="tile is-parent">
             <div class="tile is-child example">
-              <p>
+              <p class="has-text-centered">
                 A low number (like f1.8) means wide open:
               </p>
               <div class="aperture-container">
@@ -55,7 +55,7 @@
           </div>
           <div class="tile is-parent">
             <div class="tile is-child example">
-              <p>
+              <p class="has-text-centered">
                 A high number (like f22) means narrow:
               </p>
               <div class="aperture-container">
@@ -78,7 +78,7 @@
         <div class="tile is-ancestor">
           <div class="tile is-parent">
             <div class="tile is-child example">
-              <p>A small number (like 1/1000s) is fast:
+              <p class="has-text-centered">A small number (like 1/1000s) is fast:
               <div class="shutter fast">
                 <div class="curtain">
                   <div class="top"></div>
@@ -90,7 +90,7 @@
           </div>
           <div class="tile is-parent">
             <div class="tile is-child example">
-              <p>A big number (like 1s) is slow:
+              <p class="has-text-centered">A big number (like 1s) is slow:
               <div class="shutter slow">
                 <div class="curtain">
                   <div class="top"></div>
