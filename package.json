@@ -1,7 +1,7 @@
 {
-  "name": "manual.photography",
+  "name": "tldr.photography",
   "version": "1.0.0",
-  "description": "Manual photography made simple.",
+  "description": "Manual photography: A TL;DR.",
   "author": "Justin Leniger",
   "private": true,
   "scripts": {

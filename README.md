@@ -1,6 +1,6 @@
-# manual.photography
+# tldr.photography
 
-> Manual photography made simple.
+> Manual photography: A TL;DR.
 
 ## Build Setup
 

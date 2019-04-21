@@ -6,7 +6,7 @@
           Manual Photography
         </h1>
         <h2 class="subtitle">
-          Made Simple
+          TL;DR
         </h2>
       </div>
     </section>
@@ -85,7 +85,7 @@
         But wait! Why can't this be automatic?
       </h1>
       <p>
-        Each of these settings affect the picture, and have consequences, so you gotta juggle them.
+        Each of these settings affect the picture, so you gotta juggle them.
       </p>
     </section>
     <section class="section">
@@ -100,10 +100,10 @@
               </p>
               <p>
                 A big aperture (small f number) means the depth-of-field is <em>shorter</em>. Stuff behind and in front of your focus point will be blurry.
-                A small aperture makes the depth-of-field longer, so only stuff really far away from your focus point is blurry.
+                A small aperture makes the depth-of-field longer, so only stuff really far away from your focus point (close to you and in the distance) is blurry.
               </p>
               <p>
-                In a portrait, you might want this, in a landscape, you may not.
+                In a portrait, you might want a blurry background, in a landscape, you may not.
               </p>
             </div>
           </article>
@@ -114,10 +114,10 @@
             <p class="subtitle">Make it blurry</p>
             <div class="content">
               <p>
-                If something in the picture is moving, or you aren't using a tripod, too long of a shutter speed means a blurry picture. Simple enough.
+                If something in the picture is moving or your hands are shaky, too long of a shutter speed means a blurry picture. Simple enough.
               </p>
               <p>
-                This can be used for effect if you want smooth water or clouds.
+                This can be used for effect with a tripod if you want smooth water or clouds.
               </p>
             </div>
           </article>
@@ -128,7 +128,7 @@
             <p class="subtitle">Make it noisy</p>
             <div class="content">
               <p>
-                ISO adds noise. That's pretty much the only affect. The higher it gets, dark areas look more like this:
+                ISO adds noise. That's pretty much the only effect. The higher the number, dark areas look more and more like this:
               </p>
               <img src="~/assets/noisy-berries.jpg">
             </div>
@@ -141,9 +141,17 @@
         That's it.
       </h1>
       <p>
-        That's pretty much all you need to know about manual mode, skipping hours of convoluted YouTube and ad-ridden articles.
+        That's pretty much all you need to know about manual. Better than hours of convoluted YouTube videos and ad-ridden articles, right?
+      </p>
+      <p>
+        The only hard part is using these settings to get the result you want.
       </p>
     </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        &copy; {{ new Date().getFullYear() }}, Justin Leniger
+      </div>
+    </footer>
   </section>
 </template>
 
