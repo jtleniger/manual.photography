@@ -34,50 +34,76 @@
       </p>
     </section>
     <section class="section">
-      <h1 class="title">
-        Aperture
-      </h1>
-      <p>
-        Aperture is a fancy word for an adjustable hole inside the lens that can open and close. A low number means wide open:
-      </p>
-      <div class="aperture-container">
-        <div class="aperture wide"></div>
-      </div>
-      <p>
-        A high number means narrow:
-      </p>
-      <div class="aperture-container">
-        <div class="aperture narrow"></div>
-      </div>
-      <p>
-        The big hole lets through more light than the small one. If your picture is too dark or too bright, changing this can fix it.
-      </p>
+      <h1 class="title">What to Tweak</h1>
+      <section class="section tight">
+        <h1 class="title is-size-4">
+          Aperture
+        </h1>
+        <p>
+          Aperture is a fancy word for an adjustable hole inside the lens.
+        </p>
+        <p>
+          A low number (like f1.8) means wide open:
+        </p>
+        <div class="aperture-container">
+          <div class="aperture wide"></div>
+        </div>
+        <p>
+          A high number (like f22) means narrow:
+        </p>
+        <div class="aperture-container">
+          <div class="aperture narrow"></div>
+        </div>
+        <p>
+          A big hole lets through more light than the small one. If your picture is too dark or too bright, changing this can fix it.
+        </p>
+      </section>
+      <section class="section tight">
+        <h1 class="title is-size-4">
+          Shutter Speed
+        </h1>
+        <p>
+          The shutter basically passes an opening in front of the sensor. The shutter speed is how fast the camera does it.
+        </p>
+        <p>A small number (like 1/1000s) is fast:
+        <div class="shutter fast">
+          <div class="curtain">
+            <div class="top"></div>
+            <div class="middle"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <p>A big number (like 1s) is slow:
+        <div class="shutter slow">
+          <div class="curtain">
+            <div class="top"></div>
+            <div class="middle"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <p>
+          If the shutter is open for longer, more light gets in. If your picture is too dark or too bright, changing this can fix it.
+        </p>
+      </section>
+      <section class="section tight">
+        <h1 class="title is-size-4">
+          ISO
+        </h1>
+        <p>
+          ISO is basically a digital volume knob for the camera. It's kind of like turning up the brightness on your phone. If you're picture is too dark or too bright, changing this can fix it.
+        </p>
+      </section>
     </section>
     <section class="section">
       <h1 class="title">
-        Shutter Speed
+        How do I know if I've gotten it right?
       </h1>
       <p>
-        The shutter is like a opening and closing a door in front of the sensor. The shutter speed is how fast the camera does it.
+        Most mirrorless and DSLR cameras with manual mode have a thing on the screen or viewfinder that looks something like this:
       </p>
-      <p>A small number (bottom of the fraction is big) is fast:
-      <div class="shutter fast">
-        <div class="curtain top"></div>
-      </div>
-      <p>A big number (bottom of the fraction is small or the number is more than one) is slow:
-      <div class="shutter slow">
-        <div class="curtain"></div>
-      </div>
+      <img src="~/assets/exposure.svg" alt="Exposure Meter">
       <p>
-        If the shutter is open for longer, more light gets in. If your picture is too dark or too bright, changing this can fix it.
-      </p>
-    </section>
-    <section class="section">
-      <h1 class="title">
-        ISO
-      </h1>
-      <p>
-        ISO is basically a digital volume knob for the camera. It's kind of like turning up the brightness on your phone. If you're picture is too dark or too bright, changing this can fix it.
+        Tweak your settings to get the those little tick tacks below the scale near the 0 and you're good to go.
       </p>
     </section>
     <section class="section">
@@ -85,25 +111,30 @@
         But wait! Why can't this be automatic?
       </h1>
       <p>
-        Each of these settings affect the picture, so you gotta juggle them.
+        Each of these settings has its own effect the picture, so you gotta juggle them.
       </p>
     </section>
-    <section class="section">
+    <section class="section tight">
       <div class="tile is-ancestor">
         <div class="tile is-parent">
           <article class="tile is-child notification is-primary">
             <p class="title">Aperture</p>
-            <p class="subtitle">Make it fancy</p>
+            <p class="subtitle">Make It Fancy or Make It Crisp</p>
             <div class="content">
               <p>
                 In addition to light, aperture affects your "depth-of-field", which is a fancy way to say how much stuff is in focus.
               </p>
               <p>
-                A big aperture (small f number) means the depth-of-field is <em>shorter</em>. Stuff behind and in front of your focus point will be blurry.
-                A small aperture makes the depth-of-field longer, so only stuff really far away from your focus point (close to you and in the distance) is blurry.
+                Depth of field is like taking a giant slice of cake out of the space in front of you. Stuff in that slice is sharp.
               </p>
               <p>
-                In a portrait, you might want a blurry background, in a landscape, you may not.
+                A big hole means the slice of cake is <em>shorter</em>. Stuff behind and in front of your focus point will be blurry.
+              </p>
+              <p>
+                A small hole makes the slice of cake very <em>long</em>, so almost everything is in focus.
+              </p>
+              <p>
+                In a portrait, you might want a blurry background, so you would use a big hole (large aperture, small number). In a landscape, you may not, so you would use a small hole (small aperture, big number).
               </p>
             </div>
           </article>
@@ -111,13 +142,16 @@
         <div class="tile is-parent">
           <article class="tile is-child notification is-info">
             <p class="title">Shutter Speed</p>
-            <p class="subtitle">Make it blurry</p>
+            <p class="subtitle">Don't Make It Blurry</p>
             <div class="content">
               <p>
                 If something in the picture is moving or your hands are shaky, too long of a shutter speed means a blurry picture. Simple enough.
               </p>
               <p>
-                This can be used for effect with a tripod if you want smooth water or clouds.
+                Generally, you'll want to keep this as slow as possible to minimize blur.
+              </p>
+              <p>
+                The shutter speed can be used for effect if you've got a tripod. Leave it open for days to get smooth water or clouds.
               </p>
             </div>
           </article>
@@ -125,28 +159,16 @@
         <div class="tile is-parent">
           <article class="tile is-child notification is-warning">
             <p class="title">ISO</p>
-            <p class="subtitle">Make it noisy</p>
+            <p class="subtitle">Don't Make It Noisy</p>
             <div class="content">
               <p>
-                ISO adds noise. That's pretty much the only effect. The higher the number, dark areas look more and more like this:
+                ISO adds noise. That's pretty much the only effect. This one is usually used to compensate when you can't tweak the others more. The higher the number, dark areas look more and more like this:
               </p>
               <img src="~/assets/noisy-berries.jpg" alt="Noisy photo of Berries">
             </div>
           </article>
         </div>
       </div>
-    </section>
-    <section class="section">
-      <h1 class="title">
-        How do I know if I've got it right?
-      </h1>
-      <p>
-        Most mirrorless and DSLR cameras with manual mode have an exposure meter that looks something like this:
-      </p>
-      <img src="~/assets/exposure.svg" alt="Exposure Meter">
-      <p>
-        Tweak your settings to get the those little tick tacks below the scale near the 0 and you're good to go.
-      </p>
     </section>
     <section class="section">
       <h1 class="title">
@@ -161,7 +183,16 @@
     </section>
     <footer class="footer">
       <div class="content has-text-centered">
-        &copy; {{ new Date().getFullYear() }}, Justin Leniger
+        <p>&copy; {{ new Date().getFullYear() }}, Justin Leniger</p>
+        <p>If you found this helpful and are feeling generous, help me pay for the site:</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_donations" />
+          <input type="hidden" name="business" value="WBYXJZMKLXWEJ" />
+          <input type="hidden" name="item_name" value="Hosting / Domain Costs" />
+          <input type="hidden" name="currency_code" value="USD" />
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
       </div>
     </footer>
   </section>
@@ -171,6 +202,10 @@
 
 img {
   margin: 8px 0;
+}
+
+.section.tight {
+  padding: .5rem .5rem;
 }
 
 .overexposed img {
@@ -214,31 +249,49 @@ img {
   position: relative;
 
   overflow: hidden;
+
+  background-image: url('~assets/deer.jpg');
 }
 
 .shutter .curtain {
-  animation-duration: 2s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   width: 200px;
-  height: 200px;
-  background-color: #000;
+  height: 600px;
   position: absolute;
   left: -2px;
-  top: 0px;
+  top: -402px;
+}
+
+.shutter .curtain .top,.middle,.bottom {
+  height: 200px;
+}
+
+.shutter .curtain .middle {
+  background: transparent;
+}
+
+.shutter .curtain .top,.bottom {
+  background-color: #212121;
+}
+
+.shutter .curtain .top {
+  border-bottom: 2px solid #000;
+}
+
+.shutter .curtain .bottom {
+  border-top: 2px solid #000;
 }
 
 @keyframes fastShutter {
   from {
     transform: translateY(0);
   }
-  10% {
-    transform: translateY(-200px);
-  }
   20% {
-    transform: translateY(0);
+    transform: translateY(400px);
   }
   to {
-    transform: translateY(0);
+    transform: translateY(400px);
   }
 }
 
@@ -246,17 +299,11 @@ img {
   from {
     transform: translateY(0);
   }
-  10% {
-    transform: translateY(-200px);
-  }
-  56% {
-    transform: translateY(-200px);
-  }
-  66% {
-    transform: translateY(0);
+  50% {
+    transform: translateY(400px);
   }
   to {
-    transform: translateY(0);
+    transform: translateY(400px);
   }
 }
 
