@@ -21,13 +21,13 @@
         If you get too much, your picture might look like this:
       </p>
       <div class="overexposed">
-        <img src="~/assets/berries.jpg">
+        <img src="~/assets/berries.jpg" alt="Photo of Berries">
       </div>
       <p>
         If you get too little, your picture might look like this:
       </p>
       <div class="underexposed">
-        <img src="~/assets/berries.jpg">
+        <img src="~/assets/berries.jpg" alt="Photo of Berries">
       </div>
       <p>
         We don't want that. We're trying to go full goldilocks, so tweak stuff to get it right.
@@ -77,7 +77,7 @@
         ISO
       </h1>
       <p>
-        ISO is basically a digital volume knob for the camera. It's kind of like turning up the brightness on your phone. There's not much else to say.
+        ISO is basically a digital volume knob for the camera. It's kind of like turning up the brightness on your phone. If you're picture is too dark or too bright, changing this can fix it.
       </p>
     </section>
     <section class="section">
@@ -130,11 +130,23 @@
               <p>
                 ISO adds noise. That's pretty much the only effect. The higher the number, dark areas look more and more like this:
               </p>
-              <img src="~/assets/noisy-berries.jpg">
+              <img src="~/assets/noisy-berries.jpg" alt="Noisy photo of Berries">
             </div>
           </article>
         </div>
       </div>
+    </section>
+    <section class="section">
+      <h1 class="title">
+        How do I know if I've got it right?
+      </h1>
+      <p>
+        Most mirrorless and DSLR cameras with manual mode have an exposure meter that looks something like this:
+      </p>
+      <img src="~/assets/exposure.svg" alt="Exposure Meter">
+      <p>
+        Tweak your settings to get the those little tick tacks below the scale near the 0 and you're good to go.
+      </p>
     </section>
     <section class="section">
       <h1 class="title">
