@@ -108,10 +108,10 @@
     </section>
     <section class="section">
       <h1 class="title">
-        But wait! Why can't this be automatic?
+        But wait! Why would I want to set these myself?
       </h1>
       <p>
-        Each of these settings has its own effect the picture, so you gotta juggle them.
+        Each of these settings has its own effect the picture, so if you successfully juggle them, you can control those effects.
       </p>
     </section>
     <section class="section tight">
@@ -148,7 +148,7 @@
                 If something in the picture is moving or your hands are shaky, too long of a shutter speed means a blurry picture. Simple enough.
               </p>
               <p>
-                Generally, you'll want to keep this as slow as possible to minimize blur.
+                Generally, you'll want to keep this as fast (low number) as possible to minimize blur.
               </p>
               <p>
                 The shutter speed can be used for effect if you've got a tripod. Leave it open for days to get smooth water or clouds.
