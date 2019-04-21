@@ -213,31 +213,41 @@ img {
 }
 
 .underexposed img {
-  filter: brightness(50%);
+  filter: brightness(30%);
 }
 
 .aperture-container {
-  width: 200px;
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
   margin: 8px 0;
+  border: 2px solid #000;
 
   position: relative;
+
+  background-color: #212121;
 }
 
 .aperture {
   border-radius: 100%;
   border: 2px solid #000;
-
-  margin: 0 auto;
+  background-image: url('~assets/deer.jpg');
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .aperture.wide {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
+  margin: -90px 0 0 -90px;
 }
 
 .aperture.narrow {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+  margin: -15px 0 0 -15px;
+  background-position: -100px -100px;
 }
 
 .shutter {
@@ -287,7 +297,7 @@ img {
   from {
     transform: translateY(0);
   }
-  20% {
+  15% {
     transform: translateY(400px);
   }
   to {
