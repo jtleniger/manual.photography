@@ -42,17 +42,27 @@
         <p>
           Aperture is a fancy word for an adjustable hole inside the lens.
         </p>
-        <p>
-          A low number (like f1.8) means wide open:
-        </p>
-        <div class="aperture-container">
-          <div class="aperture wide"></div>
-        </div>
-        <p>
-          A high number (like f22) means narrow:
-        </p>
-        <div class="aperture-container">
-          <div class="aperture narrow"></div>
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <div class="tile is-child example">
+              <p>
+                A low number (like f1.8) means wide open:
+              </p>
+              <div class="aperture-container">
+                <div class="aperture wide"></div>
+              </div>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <div class="tile is-child example">
+              <p>
+                A high number (like f22) means narrow:
+              </p>
+              <div class="aperture-container">
+                <div class="aperture narrow"></div>
+              </div>
+            </div>
+          </div>
         </div>
         <p>
           A big hole lets through more light than the small one. If your picture is too dark or too bright, changing this can fix it.
@@ -65,20 +75,30 @@
         <p>
           The shutter basically passes an opening in front of the sensor. The shutter speed is how fast the camera does it.
         </p>
-        <p>A small number (like 1/1000s) is fast:
-        <div class="shutter fast">
-          <div class="curtain">
-            <div class="top"></div>
-            <div class="middle"></div>
-            <div class="bottom"></div>
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <div class="tile is-child example">
+              <p>A small number (like 1/1000s) is fast:
+              <div class="shutter fast">
+                <div class="curtain">
+                  <div class="top"></div>
+                  <div class="middle"></div>
+                  <div class="bottom"></div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <p>A big number (like 1s) is slow:
-        <div class="shutter slow">
-          <div class="curtain">
-            <div class="top"></div>
-            <div class="middle"></div>
-            <div class="bottom"></div>
+          <div class="tile is-parent">
+            <div class="tile is-child example">
+              <p>A big number (like 1s) is slow:
+              <div class="shutter slow">
+                <div class="curtain">
+                  <div class="top"></div>
+                  <div class="middle"></div>
+                  <div class="bottom"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <p>
@@ -130,15 +150,19 @@
               <p>
                 A big hole means the slice of cake is <em>shorter</em>. Stuff behind and in front of your focus point will be blurry.
               </p>
+              <img src="~/assets/f1_8.jpg" alt="f1.8">
               <p>
                 A small hole makes the slice of cake very <em>long</em>, so almost everything is in focus.
               </p>
+              <img src="~/assets/f22.jpg" alt="f22">
               <p>
                 In a portrait, you might want a blurry background, so you would use a big hole (large aperture, small number). In a landscape, you may not, so you would use a small hole (small aperture, big number).
               </p>
             </div>
           </article>
         </div>
+      </div>
+      <div class="tile is-ancestor">
         <div class="tile is-parent">
           <article class="tile is-child notification is-info">
             <p class="title">Shutter Speed</p>
@@ -199,9 +223,13 @@
 </template>
 
 <style>
+p {
+  margin: 8px 0;
+}
 
 img {
-  margin: 8px 0;
+  margin: 8px auto;
+  display: block;
 }
 
 .section.tight {
@@ -231,7 +259,7 @@ img {
 .aperture {
   border-radius: 100%;
   border: 2px solid #000;
-  background-image: url('~assets/deer.jpg');
+  background-color: white;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -247,7 +275,6 @@ img {
   width: 30px;
   height: 30px;
   margin: -15px 0 0 -15px;
-  background-position: -100px -100px;
 }
 
 .shutter {
