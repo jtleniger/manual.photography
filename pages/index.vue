@@ -110,7 +110,7 @@
           ISO
         </h1>
         <p>
-          ISO is basically a digital volume knob for the camera. It's kind of like turning up the brightness on your phone. If you're picture is too dark or too bright, changing this can fix it.
+          ISO is basically a digital volume knob for the camera. It's kind of like turning up the brightness on your phone. If your picture is too dark or too bright, changing this can fix it.
         </p>
       </section>
     </section>
@@ -123,7 +123,7 @@
       </p>
       <img src="~/assets/exposure.svg" alt="Exposure Meter">
       <p>
-        Tweak your settings to get the those little tick tacks below the scale near the 0 and you're good to go.
+        Tweak your settings to get the those little tick tacks below the scale near the 0, and then snap a photo.
       </p>
     </section>
     <section class="section">
@@ -248,7 +248,7 @@ img {
   width: 220px;
   height: 220px;
   border-radius: 100%;
-  margin: 8px 0;
+  margin: 8px auto;
   border: 2px solid #000;
 
   position: relative;
@@ -281,7 +281,7 @@ img {
   width: 200px;
   height: 200px;
   border: 2px solid #000;
-  margin: 8px 0;
+  margin: 8px auto;
 
   position: relative;
 
