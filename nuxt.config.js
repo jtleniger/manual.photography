@@ -39,6 +39,7 @@ export default {
   modules: [
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
+    '@nuxtjs/sitemap',
     '@nuxtjs/google-analytics'
   ],
 
@@ -63,5 +64,11 @@ export default {
     */
     extend(config, ctx) {
     }
+  },
+
+  sitemap: {
+    hostname: 'https://tldr.photography',
+    gzip: true,
+    generate: true
   }
 }
