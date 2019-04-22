@@ -110,7 +110,8 @@
           ISO
         </h1>
         <p>
-          ISO is basically a digital volume knob for the camera. It's kind of like turning up the brightness on your phone. If your picture is too dark or too bright, changing this can fix it.
+          ISO is basically a digital volume knob for the camera. It's kind of like turning up the brightness on your phone.
+          If your picture is too dark or too bright, changing this can fix it.
         </p>
       </section>
     </section>
@@ -121,7 +122,7 @@
       <p>
         Most mirrorless and DSLR cameras with manual mode have a thing on the screen or viewfinder that looks something like this:
       </p>
-      <img src="~/assets/exposure.svg" alt="Exposure Meter">
+      <img class="meter" src="~/assets/exposure.svg" alt="Exposure Meter">
       <p>
         Tweak your settings to get the those little tick tacks below the scale near the 0, and then snap a photo.
       </p>
@@ -156,7 +157,8 @@
               </p>
               <img src="~/assets/f22.jpg" alt="f22">
               <p>
-                In a portrait, you might want a blurry background, so you would use a big hole (large aperture, small number). In a landscape, you may not, so you would use a small hole (small aperture, big number).
+                In a portrait, you might want a blurry background, so you would use a big hole (large aperture, small number).
+                In a landscape, you may not, so you would use a small hole (small aperture, big number).
               </p>
             </div>
           </article>
@@ -169,7 +171,8 @@
             <p class="subtitle">Don't Make It Blurry</p>
             <div class="content">
               <p>
-                If something in the picture is moving or your hands are shaky, too long of a shutter speed means a blurry picture. Simple enough.
+                If something in the picture is moving or your hands are shaky, too long of a shutter speed means a blurry picture.
+                Simple enough.
               </p>
               <p>
                 Generally, you'll want to keep this as fast (low number) as possible to minimize blur.
@@ -186,7 +189,9 @@
             <p class="subtitle">Don't Make It Noisy</p>
             <div class="content">
               <p>
-                ISO adds noise. That's pretty much the only effect. This one is usually used to compensate when you can't tweak the others more. The higher the number, dark areas look more and more like this:
+                ISO adds noise. That's pretty much the only effect.
+                This one is usually used to compensate when you can't tweak the others more.
+                The higher the number, dark areas look more and more like this:
               </p>
               <img src="~/assets/noisy-berries.jpg" alt="Noisy photo of Berries">
             </div>
@@ -199,7 +204,8 @@
         That's it.
       </h1>
       <p>
-        That's pretty much all you need to know about manual. Better than hours of convoluted YouTube videos and ad-ridden articles, right?
+        That's pretty much all you need to know about manual.
+        Better than hours of convoluted YouTube videos and ad-ridden articles, right?
       </p>
       <p>
         The only hard part is using these settings to get the result you want.
@@ -214,7 +220,8 @@
           <input type="hidden" name="business" value="WBYXJZMKLXWEJ" />
           <input type="hidden" name="item_name" value="Hosting / Domain Costs" />
           <input type="hidden" name="currency_code" value="USD" />
-          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
+            title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
           <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
         </form>
       </div>
@@ -350,5 +357,9 @@ img {
 
 .slow .curtain {
   animation-name: slowShutter;
+}
+
+img.meter {
+  margin: 24px auto;
 }
 </style>
