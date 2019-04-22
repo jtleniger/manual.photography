@@ -27,6 +27,8 @@
                     <div data-netlify-recaptcha="true"></div>
                 </div>
 
+                <input type="hidden" name="form-name" value="contact" />
+
                 <div class="field is-grouped">
                     <div class="control">
                         <input type="submit" class="button is-link" value="Submit">
