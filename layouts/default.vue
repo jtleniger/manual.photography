@@ -27,7 +27,7 @@
                         </a>
 
                         <div class="navbar-dropdown">
-                            <nuxt-link to="/aperture" class="navbar-item">
+                            <!-- <nuxt-link to="/aperture" class="navbar-item">
                                 Aperture
                             </nuxt-link>
                             <nuxt-link to="/iso" class="navbar-item">
@@ -40,7 +40,7 @@
                                 Focal Length
                             </nuxt-link>
 
-                            <hr class="navbar-divider">
+                            <hr class="navbar-divider"> -->
 
                             <nuxt-link to="/contact" class="navbar-item">
                                 Contact
