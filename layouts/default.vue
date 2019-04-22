@@ -64,6 +64,9 @@
                     title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
                 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
                 </form>
+                <a href="https://bulma.io">
+                    <img src="https://bulma.io/images/made-with-bulma--black.png" alt="Made with Bulma" width="128" height="24">
+                </a>
             </div>
         </footer>
     </div>
