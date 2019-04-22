@@ -1,7 +1,7 @@
 <template>
     <section class="container">
         <section class="section">
-            <form name="contact" method="POST" data-netlify="true" action="/">
+            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/">
                 <div class="field">
                     <label class="label">Name</label>
                     <div class="control">
@@ -21,6 +21,10 @@
                     <div class="control">
                         <textarea class="textarea" name="message" placeholder="Message"></textarea>
                     </div>
+                </div>
+
+                <div class="field">
+                    <div data-netlify-recaptcha="true"></div>
                 </div>
 
                 <div class="field is-grouped">
