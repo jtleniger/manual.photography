@@ -42,9 +42,7 @@
 
                             <hr class="navbar-divider"> -->
 
-                            <nuxt-link to="/contact" class="navbar-item">
-                                Contact
-                            </nuxt-link>
+                            <a href="/contact" class="navbar-item">Contact</a>
                         </div>
                     </div>
                 </div>
