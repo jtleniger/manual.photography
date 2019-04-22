@@ -31,10 +31,10 @@
 
                 <div class="field is-grouped">
                     <div class="control">
-                        <input type="submit" class="button is-link" value="Submit">
+                        <button type="submit" class="button is-link">Submit</button>
                     </div>
                     <div class="control">
-                        <input type="reset" class="button is-text" value="Clear">
+                        <button type="reset" class="button is-text">Clear</button>
                     </div>
                 </div>
             </form>
