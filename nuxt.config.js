@@ -68,7 +68,6 @@ export default {
 
   sitemap: {
     hostname: 'https://tldr.photography',
-    gzip: true,
-    generate: true
+    gzip: true
   }
 }
