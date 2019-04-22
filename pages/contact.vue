@@ -1,7 +1,7 @@
 <template>
     <section class="container">
         <section class="section">
-            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/">
+            <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/thankyou">
                 <div class="field">
                     <label class="label">Name</label>
                     <div class="control">
